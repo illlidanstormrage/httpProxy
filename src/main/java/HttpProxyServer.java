@@ -51,7 +51,7 @@ public class HttpProxyServer {
                         protected void initChannel(Channel channel) throws Exception {
                             //接收客户端请求，将客户端的请求内容解码
                             channel.pipeline().addLast("httpRequestDecoder", new HttpRequestDecoder());
-                            //发送响应给客户端，并将发送内容编码
+                            //发送响应给客户端，并发送内容编码
                             channel.pipeline().addLast("httpResponseEncoder", new HttpResponseEncoder());
                             channel.pipeline().addLast("httpAggregator", new HttpObjectAggregator(65536));
                             channel.pipeline().addLast("httpProxyHandler", new HttpProxyHandler());

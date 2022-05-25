@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d3d3b0-c0aa-40d0-b0b8-8206e5b351f7" name="变更" comment="能跑">
-      <change afterPath="$PROJECT_DIR$/img/after.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/before.png" afterDir="false" />
+    <list default="true" id="81d3d3b0-c0aa-40d0-b0b8-8206e5b351f7" name="变更" comment="修改host为wttr.in的GET请求">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/edit/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/edit/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpProxyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpsProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpsProxyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HttpProxyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpProxyServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653353486313</updated>
       <workItem from="1653353487758" duration="2512000" />
-      <workItem from="1653358915019" duration="26561000" />
+      <workItem from="1653358915019" duration="32933000" />
     </task>
     <task id="LOCAL-00001" summary="能跑">
       <created>1653379382209</created>
@@ -108,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653379382209</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改host为wttr.in的GET请求">
+      <created>1653449213264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653449213264</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="能跑" />
-    <option name="LAST_COMMIT_MESSAGE" value="能跑" />
+    <MESSAGE value="修改host为wttr.in的GET请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改host为wttr.in的GET请求" />
   </component>
 </project>

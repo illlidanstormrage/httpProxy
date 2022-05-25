@@ -70,3 +70,22 @@
 
 ## 流程
 
+```flow
+start1=>start: 客户端请求
+op1=>operation: 解码、编码
+op2=>operation: HttpProxyHandler代理Http请求
+op3=>operation: HttpsProxyHandler代理Https请求
+cond1=>condition: 是否为http报文
+cond2=>condition: 是否为https报文
+op4=>operation: SocksProxyHandler代理Socks
+end3=>end: Editor篡改请求报文，并发送
+
+end1=>end: 全部转发（不做处理）
+end2=>end: 结束
+start1->op1->cond1
+cond1(yes)->op2
+cond1(no)->cond2
+cond2(yes)->op3->end3
+cond2(no)->op4->end1
+
+```
