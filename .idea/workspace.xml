@@ -4,31 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d3d3b0-c0aa-40d0-b0b8-8206e5b351f7" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HttpProxyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/ClientRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/edit/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpsProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/IProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/SocksProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/response/HttpProxyResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/response/SocksResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/utils/HttpsSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/utils/ProxyRequestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca_private.der" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Start.java" afterDir="false" />
+    <list default="true" id="81d3d3b0-c0aa-40d0-b0b8-8206e5b351f7" name="变更" comment="能跑">
+      <change afterPath="$PROJECT_DIR$/img/after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/before.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/handler/edit/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/edit/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpProxyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpsProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/proxy/HttpsProxyHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/httpProxy/src/main/resources",
+    "last_opened_file_path": "D:/httpCapture",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,8 +60,9 @@
       <recent name="D:\httpProxy\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\httpProxy\src\main\resources" />
       <recent name="D:\httpProxy" />
+      <recent name="D:\httpProxy\src\img" />
+      <recent name="D:\httpProxy\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -115,12 +99,23 @@
       <option name="presentableId" value="Default" />
       <updated>1653353486313</updated>
       <workItem from="1653353487758" duration="2512000" />
-      <workItem from="1653358915019" duration="10123000" />
+      <workItem from="1653358915019" duration="26561000" />
     </task>
+    <task id="LOCAL-00001" summary="能跑">
+      <created>1653379382209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653379382209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -132,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="能跑" />
+    <option name="LAST_COMMIT_MESSAGE" value="能跑" />
   </component>
 </project>

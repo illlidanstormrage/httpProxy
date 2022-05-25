@@ -1,6 +1,7 @@
 package handler.proxy;
 
 import bean.ClientRequest;
+import handler.edit.Editor;
 import handler.response.HttpProxyResponseHandler;
 import handler.utils.HttpsSupport;
 import io.netty.bootstrap.Bootstrap;
@@ -30,7 +31,10 @@ public class HttpsProxyHandler extends ChannelInboundHandlerAdapter implements I
         Attribute<ClientRequest> clientRequestAttribute = ctx.channel().attr(CLIENT_REQUEST_ATTRIBUTE_KEY);
         ClientRequest clientRequest = clientRequestAttribute.get();
         if (msg instanceof HttpRequest) {
-            sendToServer(clientRequest, ctx, msg);
+            // 篡改报文
+            Object new_msg = Editor.editRequest(clientRequest, msg);
+            // 将修改后的报文发送给服务器
+            sendToServer(clientRequest, ctx, new_msg);
         } else if (msg instanceof HttpContent) {
             logger.debug("[HttpsProxyHandler][HttpContent]不作处理！");
             //content不做处理

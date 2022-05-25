@@ -3,6 +3,7 @@ package handler.proxy;
 
 import bean.ClientRequest;
 import bean.Const;
+import handler.edit.Editor;
 import handler.response.HttpProxyResponseHandler;
 import handler.utils.ProxyRequestUtil;
 import io.netty.bootstrap.Bootstrap;
@@ -49,7 +50,10 @@ public class HttpProxyHandler extends ChannelInboundHandlerAdapter implements IP
                 super.channelRead(ctx, msg);
                 return;
             }
-            sendToServer(clientRequest, ctx, msg);
+            // 篡改请求报文
+            Object new_msg = Editor.editRequest(clientRequest, msg);
+            // 将篡改后的请求发送给服务器
+            sendToServer(clientRequest, ctx, new_msg);
             return;
         }
         super.channelRead(ctx, msg);
