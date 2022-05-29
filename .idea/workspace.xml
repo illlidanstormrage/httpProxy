@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d3d3b0-c0aa-40d0-b0b8-8206e5b351f7" name="变更" comment="修改README">
-      <change afterPath="$PROJECT_DIR$/src/test/python/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81d3d3b0-c0aa-40d0-b0b8-8206e5b351f7" name="变更" comment="测试脚本" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +95,7 @@
       <workItem from="1653358915019" duration="33086000" />
       <workItem from="1653728849383" duration="6947000" />
       <workItem from="1653815128098" duration="344000" />
+      <workItem from="1653816010109" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="能跑">
       <created>1653379382209</created>
@@ -120,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653464875933</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试脚本">
+      <created>1653816277683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653816277683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +149,7 @@
     <MESSAGE value="能跑" />
     <MESSAGE value="修改host为wttr.in的GET请求" />
     <MESSAGE value="修改README" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改README" />
+    <MESSAGE value="测试脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试脚本" />
   </component>
 </project>
